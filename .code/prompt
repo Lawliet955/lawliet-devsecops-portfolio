@@ -1,0 +1,45 @@
+Build a modern, fully responsive personal portfolio web page using only HTML and CSS. The layout should be divided into the following sections:
+
+1. **Header Section**:
+   - Include my name or a logo.
+   - Add a brief tagline.
+   - Sticky header with background blur.
+   - Toggle for dark/light mode (CSS-only).
+
+2. **About Section**:
+   - Profile image on one side, short bio on the other.
+   - Bio should highlight my web development skills and experience.
+   - Use CSS animations to fade in on scroll.
+
+3. **Skills Section**:
+   - Grid layout or horizontal scroll carousel of skill cards.
+   - Each card shows a tech icon, skill name, and hover animation.
+
+4. **Projects Section**:
+   - Showcase 3–4 sample projects with:
+     - Project title
+     - Description
+     - Preview image
+   - Add hover effects and smooth animations for interactivity.
+
+5. **Resume Section**:
+   - Button to download my resume (PDF).
+   - Include resume icon and stylish hover effect.
+
+6. **Contact Section**:
+   - Email and phone number
+   - Add social icons (LinkedIn, GitHub)
+   - Form-style layout (only visual, not functional).
+
+7. **Footer**:
+   - Copyright notice
+   - Links to GitHub or portfolio
+   - Should match dark/light theme
+
+🔧 Technical requirements:
+- Use only **HTML5 and modern CSS3** (Flexbox, Grid, CSS variables)
+- Include **scroll reveal animations**, smooth transitions, and a toggleable **dark/light mode** (using a checkbox trick)
+- Make it **mobile-first** and **fully responsive**
+- Visually appealing with a soft-glass (glassmorphism) style
+- Use custom CSS animations for sections loading
+- Use placeholder content and simple icons
