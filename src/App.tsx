@@ -48,13 +48,19 @@ function App() {
       title: 'Avanade - Cloud Infrastructure & DevOps Engineer',
       description: 'Actually working in Avanade as Cloud Infrastructure & DevOps Engineering. Actually on a project for a known italian energy provider. Azure Certified Administrator (AZ-104)',
       image: 'https://images1.the-dots.com/1496316/avanade-logo.jpeg?p=socialLarge',
-      tech: ['Terraform', 'Kubernetes', 'DevOps', 'CI/CD', 'GitLab', 'Azure'],
+      tech: ['Terraform', 'Kubernetes', 'DevOps', 'CI/CD', 'Helm', 'GitLab Admin', 'Azure Admin'],
     },
     {
       title: 'Threaded - Inventory App',
       description: 'Collaborative corporate inventory management application with real-time updates, a built-in db, and built with 5S rules in mind.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['Python', 'API', 'SQLite'],
+      image: 'https://myassetstorageportfolio.blob.core.windows.net/assetsblob/Threaded_page2.png',
+      tech: ['Python', 'Flask', 'API', 'SQLite'],
+    },
+    {
+      title: 'Lab: Self-Hosted GitLab on Kubernetes',
+      description: 'In my Azure lab I deployed a personal GitLab instance on Kubernetes using Helm. This setup simulates our client environments, allowing me to practice administration tasks such as upgrades, configuration, and troubleshooting — just like we do in production.',
+      image: 'https://logodix.com/logo/258598.jpg',
+      tech: ['Python', 'Flask', 'API', 'SQLite'],
     },
   ];
 
@@ -118,8 +124,8 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-                Passionate about Automation, Infrastructure, & DevOps.  
-                Cyber security and reversing enthusiast.
+                Passionate about Automation, Infrastructure & DevOps.
+                Cyber security and reversing enthusiast. I love to understand deeply how stuff works.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
@@ -155,7 +161,7 @@ function App() {
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Who I Am</h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    I'm a passionate DevOps Engineer with 1.5+ years of experience about 
+                    I'm a passionate DevOps Cloud Engineer with 1.5+ years of experience about 
                     automating app deployment. Let's ride together to prod! 🚀
                   </p>
                 </div>
@@ -166,8 +172,9 @@ function App() {
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">What I Do</h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    I specialize in Azure cloud,Kubernetes, DevOps and CI/CD.
-                    I assist application teams to create and deploy scalable applications,troubleshooting problems when they occurs.
+                    I specialize in Azure Cloud, Kubernetes, and DevOps with a strong focus on CI/CD.
+                    I partner with application teams to build and deploy scalable solutions.
+                    When challenges arise, I excel at troubleshooting complex issues, identifying root causes, and delivering effective solutions. ⚡
                   </p>
                 </div>
               </div>
