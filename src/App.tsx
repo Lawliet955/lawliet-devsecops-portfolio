@@ -37,10 +37,10 @@ function App() {
   }, [darkMode]);
 
   const skills = [
-    { name: 'Frontend Development', icon: <Code className="w-8 h-8" />, level: 95 },
-    { name: 'Backend Development', icon: <Database className="w-8 h-8" />, level: 90 },
-    { name: 'Mobile Development', icon: <Smartphone className="w-8 h-8" />, level: 85 },
-    { name: 'Full Stack', icon: <Globe className="w-8 h-8" />, level: 92 },
+    { name: 'Automation', icon: <Code className="w-8 h-8" />, level: 70 },
+    { name: 'Azure Cloud Engineering', icon: <Database className="w-8 h-8" />, level: 90 },
+    { name: 'CI/CD', icon: <Smartphone className="w-8 h-8" />, level: 80 },
+    { name: 'Kubernetes', icon: <Globe className="w-8 h-8" />, level: 70 },
   ];
 
   const projects = [
