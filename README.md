@@ -1,4 +1,4 @@
-# 💼 Alex Thompson - Full Stack Developer Portfolio
+# 💼 Francesco Sessa - Cloud Infrastructure & DevOps Engineer Portfolio
 
 A modern, fast, and fully responsive **developer portfolio website** built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. This project showcases personal information, technical skills, featured projects, and contact details — all wrapped in a clean, elegant UI.
 

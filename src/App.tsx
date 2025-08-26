@@ -45,28 +45,16 @@ function App() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['React', 'Node.js', 'PostgreSQL'],
+      title: 'Avanade - Cloud Infrastructure & DevOps Engineer',
+      description: 'Actually working in Avanade as Cloud Infrastructure & DevOps Engineering. Actually on a project for a known italian energy provider. Azure Certified Administrator (AZ-104)',
+      image: 'https://images1.the-dots.com/1496316/avanade-logo.jpeg?p=socialLarge',
+      tech: ['Terraform', 'Kubernetes', 'DevOps', 'CI/CD', 'GitLab', 'Azure'],
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Threaded - Inventory App',
+      description: 'Collaborative inventory management application with real-time updates, a built-in db, and built with 5S rules in mind.',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['Vue.js', 'Express', 'MongoDB'],
-    },
-    {
-      title: 'Weather Analytics Dashboard',
-      description: 'Interactive weather dashboard with data visualization, forecasting, and location-based weather tracking using modern APIs.',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['React', 'D3.js', 'Weather API'],
-    },
-    {
-      title: 'Social Media Platform',
-      description: 'Modern social networking platform with real-time messaging, content sharing, and advanced privacy controls.',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['Next.js', 'Socket.io', 'Redis'],
+      tech: ['Python', 'API', 'SQLite'],
     },
   ];
 
@@ -87,8 +75,8 @@ function App() {
                   <span className="text-white font-bold text-lg">AT</span>
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-gray-900 dark:text-white">Alex Thompson</h1>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">Full Stack Developer</p>
+                  <h1 className="text-xl font-bold text-gray-900 dark:text-white">Francesco Sessa</h1>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">Cloud Infrastructure & DevOps Engineer</p>
                 </div>
               </div>
               
@@ -119,19 +107,19 @@ function App() {
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 animate-pulse">
                   <img 
                     src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" 
-                    alt="Alex Thompson" 
+                    alt="Francesco Sessa" 
                     className="w-full h-full rounded-full object-cover"
                   />
                 </div>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Alex Thompson
+                  Francesco Sessa
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-                Crafting digital experiences with modern web technologies. 
-                Passionate about creating scalable, user-friendly applications.
+                Passionate about Automation, Infrastructure, & DevOps.  
+                Cyber security and reversing enthusiast.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
@@ -167,9 +155,8 @@ function App() {
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Who I Am</h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    I'm a passionate full-stack developer with 5+ years of experience creating 
-                    innovative web solutions. I love turning complex problems into simple, 
-                    beautiful designs that deliver exceptional user experiences.
+                    I'm a passionate DevOps Engineer with 1.5+ years of experience about 
+                    automating app deployment. Let's ride together to prod! 🚀
                   </p>
                 </div>
                 
@@ -179,9 +166,8 @@ function App() {
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">What I Do</h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
-                    I specialize in modern JavaScript frameworks, cloud architecture, and 
-                    creating scalable applications. From concept to deployment, I ensure 
-                    every project meets the highest standards of quality and performance.
+                    I specialize in Azure cloud,Kubernetes, DevOps and CI/CD.
+                    I assist application teams to create and deploy scalable applications,troubleshooting problems when they occurs.
                   </p>
                 </div>
               </div>
@@ -312,7 +298,7 @@ function App() {
                     <Mail className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
-                      <p className="text-gray-600 dark:text-gray-300">alex.thompson@email.com</p>
+                      <p className="text-gray-600 dark:text-gray-300">place.holder@somemail.com</p>
                     </div>
                   </div>
                 </div>
@@ -322,7 +308,7 @@ function App() {
                     <Phone className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white">Phone</h3>
-                      <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                      <p className="text-gray-600 dark:text-gray-300">+0 (000) 000-0000</p>
                     </div>
                   </div>
                 </div>
@@ -391,10 +377,10 @@ function App() {
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-3">
                 <span className="text-white font-bold text-lg">AT</span>
               </div>
-              <span className="text-white text-xl font-semibold">Alex Thompson</span>
+              <span className="text-white text-xl font-semibold">Francesco Sessa</span>
             </div>
             <p className="text-gray-400 mb-6">
-              © 2024 Alex Thompson. All rights reserved. Built with React and Tailwind CSS.
+              © 2025 Francesco Sessa. Built with React and Tailwind CSS.
             </p>
             <div className="flex justify-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
