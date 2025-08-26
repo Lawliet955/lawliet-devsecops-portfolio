@@ -2,8 +2,6 @@
 
 A modern, fast, and fully responsive **developer portfolio website** built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. This project showcases personal information, technical skills, featured projects, and contact details — all wrapped in a clean, elegant UI.
 
-### 🚀 Live Demo
-🔗 [View Live Site](https://alex-portfolio-preview.vercel.app/)
 
 ---
 
@@ -57,7 +55,7 @@ alex-portfolio/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/ajay-dhangar/alex-portfolio.git
+git clone https://github.com/Lawliet955/lawliet-devsecops-portfolio.git
 cd alex-portfolio
 ```
 
@@ -119,7 +117,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Author
 
 **Ajay Dhangar**
-🔗 [GitHub](https://github.com/ajay-dhangar) • [LinkedIn](https://www.linkedin.com/in/ajay-dhangar)
+🔗 [GitHub](https://github.com/ajay-dhangar) 
 
 ---
 

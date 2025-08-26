@@ -72,7 +72,7 @@ function App() {
             <div className="flex justify-between items-center py-4">
               <div className="flex items-center space-x-2">
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">AT</span>
+                  <span className="text-white font-bold text-lg">FS</span>
                 </div>
                 <div>
                   <h1 className="text-xl font-bold text-gray-900 dark:text-white">Francesco Sessa</h1>
