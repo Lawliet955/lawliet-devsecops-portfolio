@@ -46,7 +46,7 @@ function App() {
   const projects = [
     {
       title: 'Avanade - Cloud Infrastructure & DevOps Engineer',
-      description: 'Actually working in Avanade as Cloud Infrastructure & DevOps Engineering. Actually on a project for a known italian energy provider. Azure Certified Administrator (AZ-104)',
+      description: 'Currently working at Avanade as a Cloud Infrastructure & DevOps Engineer, contributing to a major project for a leading Italian energy provider. Certified Azure Administrator (AZ-104).',
       image: 'https://images1.the-dots.com/1496316/avanade-logo.jpeg?p=socialLarge',
       tech: ['Terraform', 'Kubernetes', 'DevOps', 'CI/CD', 'Helm', 'GitLab Admin', 'Azure Admin'],
     },
@@ -60,7 +60,19 @@ function App() {
       title: 'Lab: Self-Hosted GitLab on Kubernetes',
       description: 'In my Azure lab I deployed a personal GitLab instance on Kubernetes using Helm. This setup simulates our client environments, allowing me to practice administration tasks such as upgrades, configuration, and troubleshooting — just like we do in production.',
       image: 'https://logodix.com/logo/258598.jpg',
-      tech: ['Python', 'Flask', 'API', 'SQLite'],
+      tech: ['Azure', 'Kubernetes', 'Helm', 'GitLab'],
+    },
+    {
+      title: 'Infra as Code: Portfolio on Azure',
+      description: 'I am building the underlying infrastructure of this very portfolio website on Azure DevOps using Terraform and CI/CD pipelines. This approach showcases my end-to-end skills: from Infrastructure as Code, to deployment automation, to running production-ready workloads on the cloud I manage myself.',
+      image: 'https://th.bing.com/th/id/R.40c934e95067ba2660ba6c01253006a7?rik=mo%2fd8Rb17Ecy8A&pid=ImgRaw&r=0',
+      tech: ['Azure', 'Terraform', 'Infrastructure as Code', 'DevOps'],
+    },
+    {
+      title: 'Lab: Self-Hosted OpenAI on Azure',
+      description: 'I deployed my own self-hosted OpenAI instance on Azure, leveraging cloud services and APIs to experiment with AI-powered applications. This setup allows me to explore integrations, automation scenarios, and real-world use cases for generative AI in a secure lab environment.',
+      image: 'https://media.licdn.com/dms/image/D5612AQHVKUntJabZzw/article-cover_image-shrink_720_1280/0/1700904205908?e=2147483647&v=beta&t=tFHD7VsvxcTyC6MHF_N-dNPP9aCFaSIuswehhMvp0Do',
+      tech: ['Azure', 'OpenAI', 'APIs', 'DevOps'],
     },
   ];
 
@@ -305,7 +317,7 @@ function App() {
                     <Mail className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
-                      <p className="text-gray-600 dark:text-gray-300">place.holder@somemail.com</p>
+                      <p className="text-gray-600 dark:text-gray-300">place.holder@somemail.com - Available soon! </p>
                     </div>
                   </div>
                 </div>
@@ -315,7 +327,7 @@ function App() {
                     <Phone className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white">Phone</h3>
-                      <p className="text-gray-600 dark:text-gray-300">+0 (000) 000-0000</p>
+                      <p className="text-gray-600 dark:text-gray-300">+0 (000) 000-0000 - Available soon! </p>
                     </div>
                   </div>
                 </div>
