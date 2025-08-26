@@ -40,10 +40,10 @@ function App() {
   }, [darkMode]);
 
   const skills = [
-    { name: 'Automation', icon: <Code className="w-8 h-8" />, level: 70 },
     { name: 'Azure Cloud Engineering', icon: <Cloud className="w-8 h-8" />, level: 90 },
     { name: 'CI/CD', icon: <Rocket className="w-8 h-8" />, level: 80 },
     { name: 'Kubernetes', icon: <Server className="w-8 h-8" />, level: 70 },
+    { name: 'Automation', icon: <Code className="w-8 h-8" />, level: 70 },
   ];
 
   const projects = [
