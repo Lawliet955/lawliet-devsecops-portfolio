@@ -114,7 +114,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Author
+## 🙌 Author of this template
 
 **Ajay Dhangar**
 🔗 [GitHub](https://github.com/ajay-dhangar) 

@@ -15,6 +15,9 @@ import {
   User,
   Briefcase,
   Award,
+  Cloud,
+  Rocket,
+  Server,
   MessageCircle
 } from 'lucide-react';
 
@@ -38,9 +41,9 @@ function App() {
 
   const skills = [
     { name: 'Automation', icon: <Code className="w-8 h-8" />, level: 70 },
-    { name: 'Azure Cloud Engineering', icon: <Database className="w-8 h-8" />, level: 90 },
-    { name: 'CI/CD', icon: <Smartphone className="w-8 h-8" />, level: 80 },
-    { name: 'Kubernetes', icon: <Globe className="w-8 h-8" />, level: 70 },
+    { name: 'Azure Cloud Engineering', icon: <Cloud className="w-8 h-8" />, level: 90 },
+    { name: 'CI/CD', icon: <Rocket className="w-8 h-8" />, level: 80 },
+    { name: 'Kubernetes', icon: <Server className="w-8 h-8" />, level: 70 },
   ];
 
   const projects = [
@@ -198,7 +201,7 @@ function App() {
                     <div className="text-center">
                       <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">1.5+</div>
                       <div className="text-gray-600 dark:text-gray-300">Years Experience</div>
-                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2 mt-4">2</div>
+                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2 mt-4">4</div>
                       <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
                     </div>
                   </div>
@@ -334,14 +337,14 @@ function App() {
                 
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://github.com/Lawliet955"
                     className="flex-1 bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                   >
                     <Github className="w-8 h-8 text-gray-900 dark:text-white mx-auto mb-2" />
                     <span className="text-sm text-gray-600 dark:text-gray-300">GitHub</span>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/francesco-sessa-43a02726b/" 
                     className="flex-1 bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                   >
                     <Linkedin className="w-8 h-8 text-blue-600 mx-auto mb-2" />
@@ -399,13 +402,13 @@ function App() {
               <span className="text-white text-xl font-semibold">Francesco Sessa</span>
             </div>
             <p className="text-gray-400 mb-6">
-              © 2025 Francesco Sessa. Built with React and Tailwind CSS.
+              Built with ❤️ with React and Tailwind CSS.
             </p>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/Lawliet955" className="text-gray-400 hover:text-white transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/francesco-sessa-43a02726b/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
