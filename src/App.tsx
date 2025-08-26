@@ -52,7 +52,7 @@ function App() {
     },
     {
       title: 'Threaded - Inventory App',
-      description: 'Collaborative inventory management application with real-time updates, a built-in db, and built with 5S rules in mind.',
+      description: 'Collaborative corporate inventory management application with real-time updates, a built-in db, and built with 5S rules in mind.',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
       tech: ['Python', 'API', 'SQLite'],
     },
@@ -106,7 +106,7 @@ function App() {
               <div className="relative inline-block mb-8">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 animate-pulse">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" 
+                    src="https://media.licdn.com/dms/image/v2/D4E03AQHA1EbFVt_P7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696165499718?e=1759363200&v=beta&t=1q0SM-8iW5oGbZl0rfiXn9PUuVdRZX_HKIXQf7snzcQ" 
                     alt="Francesco Sessa" 
                     className="w-full h-full rounded-full object-cover"
                   />
@@ -177,9 +177,9 @@ function App() {
                   <div className="w-80 h-80 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-20 animate-pulse"></div>
                   <div className="absolute inset-4 bg-white/20 dark:bg-slate-800/20 backdrop-blur-sm rounded-full flex items-center justify-center">
                     <div className="text-center">
-                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">5+</div>
+                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2">1.5+</div>
                       <div className="text-gray-600 dark:text-gray-300">Years Experience</div>
-                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2 mt-4">50+</div>
+                      <div className="text-4xl font-bold text-gray-900 dark:text-white mb-2 mt-4">2</div>
                       <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
                     </div>
                   </div>
@@ -375,7 +375,7 @@ function App() {
           <div className="max-w-7xl mx-auto text-center">
             <div className="flex justify-center items-center mb-6">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">AT</span>
+                <span className="text-white font-bold text-lg">FS</span>
               </div>
               <span className="text-white text-xl font-semibold">Francesco Sessa</span>
             </div>
