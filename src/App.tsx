@@ -79,6 +79,30 @@ function App() {
     },
   ];
 
+  const certifications = [
+  {
+    title: 'Microsoft Certified: AZ-900',
+    description: 'Microsoft Azure Fundamentals certification, validating knowledge of core cloud concepts, Azure services, pricing, support, and basic cloud governance. Certification ID: 996655492',
+    image: 'https://myassetstorageportfolio.blob.core.windows.net/assetsblob/AZ-900.png',
+    tech: ['Azure Fundamentals', 'Cloud Concepts', 'Governance', 'Pricing & Support'],
+    link: 'https://learn.microsoft.com/en-us/certifications/exams/az-900/',
+  },
+  {
+    title: 'Microsoft Certified: AZ-104',
+    description: 'Microsoft Azure Administrator certification, focused on managing Azure identities, storage, governance, compute, networking, and monitoring in cloud environments. ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  Certification ID: 996655492',
+    image: 'https://myassetstorageportfolio.blob.core.windows.net/assetsblob/AZ-104.png',
+    tech: ['Azure Admin', 'Networking', 'Compute', 'Storage', 'Monitoring', 'RBAC'],
+    link: 'https://learn.microsoft.com/en-us/certifications/exams/az-104/',
+  },
+  {
+  title: 'Coming Soon: HashiCorp: Terraform Associate',
+  description: 'HashiCorp Terraform Associate certification, validating skills in Infrastructure as Code (IaC), Terraform CLI, modules, state management, cloud provisioning, and best practices for automation and collaboration. Certification ID: 996655492',
+  image: 'https://th.bing.com/th/id/R.40c934e95067ba2660ba6c01253006a7?rik=mo%2fd8Rb17Ecy8A&pid=ImgRaw&r=0',
+  tech: ['Terraform', 'Infrastructure as Code', 'Modules', 'State Management', 'Provisioning', 'Automation'],
+  link: 'https://developer.hashicorp.com/terraform/tutorials/certification-003',
+  },
+];
+
   return (
     <div className={`min-h-screen transition-all duration-500 ${darkMode ? 'dark' : ''}`}>
       <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-all duration-500">
@@ -246,7 +270,7 @@ function App() {
         <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Featured Projects</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Experiences&Projects</h2>
               <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
             </div>
             
@@ -280,6 +304,56 @@ function App() {
                     <button className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors">
                       View Project <ExternalLink className="w-4 h-4 ml-2" />
                     </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Certification Section */}
+        <section id="certifications" className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Certifications</h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {certifications.map((certifications, index) => (
+                <div 
+                  key={index}
+                  className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                >
+                  <div className="relative overflow-hidden">
+                    <img 
+                      src={certifications.image} 
+                      alt={certifications.title}
+                      className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{certifications.title}</h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-4">{certifications.description}</p>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {certifications.tech.map((tech, techIndex) => (
+                        <span 
+                          key={techIndex}
+                          className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-sm rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    <a 
+                      href={certifications.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                    >
+                      View Project <ExternalLink className="w-4 h-4 ml-2" />
+                    </a>
                   </div>
                 </div>
               ))}
